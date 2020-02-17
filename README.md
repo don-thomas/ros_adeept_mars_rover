@@ -6,7 +6,7 @@ The ds4_driver(PS4 ROS Driver) source and installation guides can be found here:
 The tele_ps4_joystick package was created by me to use the information coming from the ps4 controller to control the robot.
 
 ## Getting Started
-- First make you follow the ds4_driver guides to connect the ps4 controller to your RPi or any SBC of your choice either by wireless or wire. 
+- First sure make you follow the ds4_driver guides to connect the ps4 controller to your RPi or any SBC of your choice either by wireless or wire. 
 - Then clone this tele_ps4_joystick package in your catkin/src path
 - You should also clone the latest ds4_driver in your catkin/src 
 - catkin_make, to compile everything 
@@ -31,7 +31,8 @@ Left Analog Stick: Steering Control
 
 ### Future Updates
 - Using the Right Analog Stick to change the position of the camera.
+- Tele-operation controls using a client keyboard. 
 - Obstacle Detection and Identification of Objects using Deep Learning. Might use an edge product or cloud so i could offload my inference. 
 - V-Slam using the RGB Camera and possible integration with Ultrasonic Sensor.
-- Tele-operation controls using a client keyboard. 
+
 
