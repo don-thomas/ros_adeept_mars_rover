@@ -18,7 +18,13 @@ roslaunch ds4_driver ds4_twist.launch
 ```
 Then use rostopic list and find the topic related to the twist message of the joystick. Afterwards rostopic echo that topic and ensure that your getting new messages when your moving the Analog Joystick. 
 
-Open a new terminal and navigate to the scripts folder in tele_ps4_joystick package:
+Open a new terminal and navigate to the scripts folder in tele_ps4_joystick package and run this node in python3:
 ```
 python3 JoyStickControl.py
+```
+Controls for the PS4 Joystick:
+```
+R2: Forward
+L2: Back
+Left Analog Stick: Steering Control
 ```
