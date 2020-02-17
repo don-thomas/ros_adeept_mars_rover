@@ -31,7 +31,7 @@ Left Analog Stick: Steering Control
 
 ### Future Updates
 - Using the Right Analog Stick to change the position of the camera.
-- Obstacle Detection and Identification of Objects using Deep Learning. Might use an edge product if i buy one :) so i could offload my inference. 
+- Obstacle Detection and Identification of Objects using Deep Learning. Might use an edge product or cloud so i could offload my inference. 
 - V-Slam using the RGB Camera and possible integration with Ultrasonic Sensor.
 - Tele-operation controls using a client keyboard. 
 
