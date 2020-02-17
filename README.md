@@ -9,7 +9,7 @@ The tele_ps4_joystick package was created by me to use the information coming fr
 - First make you follow the ds4_driver guides to connect the ps4 controller to your RPi or any SBC of your choice either by wireless or wire. 
 - Then clone this tele_ps4_joystick package in your catkin/src path
 - You should also clone the latest ds4_driver in your catkin/src 
-- Catkin_make 
+- catkin_make, to compile everything 
 
 ### Demo Run
 Open a terminal and Roslaunch the Joystick Driver:
