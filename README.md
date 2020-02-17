@@ -28,3 +28,10 @@ R2: Forward
 L2: Back
 Left Analog Stick: Steering Control
 ```
+
+### Future Updates
+- Using the Right Analog Stick to change the position of the camera.
+- Obstacle Detection and Identification of Objects using Deep Learning examples yolo or SSD. Might use NCS2 if i buy one :) so i could offload my inference. 
+- V-Slam using the RGB Camera and possible integration with Ultrasonic Sensor.
+- Tele-operation controls using a client keyboard. 
+
