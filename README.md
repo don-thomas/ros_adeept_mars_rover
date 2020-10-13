@@ -5,6 +5,8 @@ The ds4_driver(PS4 ROS Driver) source and installation guides can be found here:
 
 The tele_ps4_joystick package was created by me to use the information coming from the ps4 controller to control the robot.
 
+<img src="project_images/robot.jpg" width="200">
+
 ## Getting Started
 - First make sure you follow the ds4_driver guides to connect the ps4 controller to your RPi or any SBC of your choice either by wireless or wire. 
 - Then clone this tele_ps4_joystick package in your catkin/src path
